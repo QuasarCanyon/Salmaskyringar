@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,26 +15,29 @@ html {
 
 main {
     margin: 0 auto;
-    max-width: 1500;
-    padding: 20px;
-    display: flex;
+    max-width: 1450px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header {
     display: flex;
     width: 100%;
     background-color: green;
+    height: 200px;
 }
 
 .header__row {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .header__col {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .header__title {
@@ -38,11 +45,14 @@ main {
 }
 
 .header__tags {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .header__tag {
-
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .header__current {
@@ -50,19 +60,32 @@ main {
 }
 
 .header__link {
-    
+
+}
+
+.grid {
+    width: 100%;
+    background-image: url(/img/stsci-h-p1821a-m-1699x2000.png);
 }
 
 .grid__row {
-
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .grid__col {
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .sidebar {
-
+    width: 33.3%;
 }
 
 .hymn {
@@ -70,11 +93,19 @@ main {
 }
 
 .hymn__title {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .hymn__verse {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.hymn__author {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .content {
@@ -82,9 +113,11 @@ main {
 }
 
 .content__title {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .content__prose {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

@@ -1,0 +1,23 @@
+{
+  "name": "salmaskyringar",
+  "version": "0.0.1",
+  "description": "Sálmaskýringar",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css scripts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuasarCanyon/Salmaskyringar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuasarCanyon/Salmaskyringar/issues"
+  },
+  "homepage": "https://github.com/QuasarCanyon/Salmaskyringar#readme"
+}
