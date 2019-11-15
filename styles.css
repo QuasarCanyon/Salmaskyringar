@@ -23,7 +23,7 @@ main {
 .header {
     display: flex;
     width: 100%;
-    background-color: green;
+    background-color: darkred;
     height: 200px;
 }
 
@@ -65,7 +65,7 @@ main {
 
 .grid {
     width: 100%;
-    background-image: url(/img/stsci-h-p1821a-m-1699x2000.png);
+    background-color: lightblue;
 }
 
 .grid__row {
