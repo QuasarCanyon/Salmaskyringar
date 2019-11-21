@@ -8,7 +8,7 @@
     "browser-sync": "^2.26.7"
   },
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css scripts.js"
+    "browser-sync": "browser-sync start --server --files index.html tonlist.html biblia.html styles.css scripts.js"
   },
   "repository": {
     "type": "git",
